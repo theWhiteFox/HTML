@@ -1,0 +1,20 @@
+/* styletable.css */
+body {
+	background-color: gold;
+	font-family: Source code pro;
+}
+
+#container {
+	width:460;
+	margin:auto;
+	border:1px solid black;
+	border-radius: 10px;
+	text-align: center;
+	background-color: silver;
+	min-height: 400px;
+}
+
+th,td {
+	width:100px;
+	text-align: center;
+}
