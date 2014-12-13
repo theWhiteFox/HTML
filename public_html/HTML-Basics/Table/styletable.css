@@ -5,16 +5,22 @@ body {
 }
 
 #container {
-	width:460;
+	width:460px;
 	margin:auto;
 	border:1px solid black;
+	padding: 0 10px 10px 10px;
 	border-radius: 10px;
 	text-align: center;
 	background-color: silver;
 	min-height: 400px;
 }
 
+td {
+	border-bottom: 1px black dashed;
+	padding: 3px 0;
+}
+
 th,td {
 	width:100px;
-	text-align: center;
+	text-align: center;	
 }
