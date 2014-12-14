@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- @ Stephen O'Connor -->
+<html lang="en">
+   <head>
+      <title>HTML Forms</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="styleform.css">
+   </head>
+   <body>
+      <header>
+         
+      </header>
+      <div id="container">
+      <h1>Registeration Form</h1>
+         <form action="POST" method="process.php">
+           <ul>
+              <li>
+               <label>First Name:</label>
+               <input name="first_name" type="text" placeholder="First name" />
+              </li>
+              <li>
+               <label>First Last:</label>
+               <input name="first_last" type="text" placeholder="Last name" />
+              </li>
+              <li>
+               <label>Email:</label>
+               <input name="email" type="email" placeholder="Email"/>
+              </li>
+               <label>Favorite Food:</label>
+               <select>
+                  <option value="pizza">Pizza</option>
+                  <option value="fish">Fish</option>
+                  <option value="lentils">Lentils</option>
+               </select>
+              </li>                        
+              <li>
+              <label>Gender: </label>
+                 <input type="radio" name="gender" value="Male">Male
+                 &nbsp;            
+                 <input type="radio" name="gender" value="Female">Female
+              </li>
+              <br>
+              <li>
+               <label>Message:</label>
+               <input name="messsage" type="text" placeholder="Message" />
+              </li>
+              <input type="submit" value="Register" name="register"/>
+           </ul>
+           <br>
+         </form>
+      </div>
+   </body>
+</html>
